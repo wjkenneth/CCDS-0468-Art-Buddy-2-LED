@@ -30,7 +30,7 @@ fastled/FastLED@^3.7.3
 ### Tools
 Flash Size: 2MB (Sketch: 1MB, FS: 1MB)
 
-USB Stack: Adafruit TinyUSB
+USB Stack: Pico SDK
 
 ![tools](/images/Tools.png)
 
@@ -38,6 +38,8 @@ USB Stack: Adafruit TinyUSB
 
 Arduino IDE 2.x users
 - Please see the [arduino-littlefs-plugin](https://github.com/earlephilhower/arduino-littlefs-upload) for use under IDE 2.2.1 or later
+- [Ctrl] + [Shift] + [P], then "Upload LittleFS to Pico/ESP8266/ESP32".
+- On macOS, press [⌘] + [Shift] + [P] to open the Command Palette in the Arduino IDE, then "Upload LittleFS to Pico/ESP8266/ESP32".
 
 Installation
 - Make sure you use one of the supported versions of Arduino IDE and have the Arduino-Pico core (https://github.com/earlephilhower/arduino-pico) installed.
